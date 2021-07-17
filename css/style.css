@@ -1,0 +1,136 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADING */
+body {
+  background-color: black;
+}
+.heading {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.heading button {
+  padding: 10px;
+  background-image: linear-gradient(rgb(24, 24, 24), rgb(7, 7, 7));
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+/* MAIN */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+.fa-caret-right {
+  font-size: 50px;
+  color: rgb(0, 174, 255);
+  display: block;
+}
+.fa-caret-left{
+  font-size: 50px;
+  color: grey);
+  display: block;
+}
+
+.r-side,
+.l-side {
+  font-size: 20px;
+  color: white;
+}
+/* FLEX MAIN VIEW */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1550px;
+  overflow: auto;
+}
+.container div.box {
+  flex: 0 0 300px;
+  height: 200px;
+  margin: 0 5px 5px 5px;
+  position: relative;
+  text-align: center;
+}
+.container div.box img {
+  height: 100%;
+  width: 100%;
+}
+/* POSIZIONAMENTO NOME E MICROFONO */
+.mic-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 1.2em;
+  padding: 5px;
+}
+.container .mic-name i {
+  padding: 0 10px 0 0;
+}
+/* FOOTER */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.foot {
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(rgb(24, 24, 24), rgb(7, 7, 7));
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot ul {
+  display: inline-block;
+  list-style-type: none;
+}
+.foot button {
+  border: none;
+  background-color: rgb(37, 37, 37);
+  color: red;
+  font-size: 20px;
+  height: 100px;
+  padding: 0 30px;
+}
+.foot li {
+  cursor: pointer;
+  text-align: center;
+  padding: 0 20px 10px 20px;
+}
+.foot .fas,
+.foot .far {
+  font-size: 30px;
+  cursor: pointer;
+}
+footer nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-width: 1250px;
+}
+.fa-share-square {
+  color: rgb(143, 216, 33);
+}
