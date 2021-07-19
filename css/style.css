@@ -36,7 +36,7 @@ main {
 }
 .fa-caret-left{
   font-size: 50px;
-  color: grey);
+  color: grey;
   display: block;
 }
 
@@ -67,6 +67,7 @@ main {
 .container div.box img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 /* POSIZIONAMENTO NOME E MICROFONO */
 .mic-name {
